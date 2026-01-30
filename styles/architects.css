@@ -141,6 +141,20 @@ main > section {
     font-weight: 600;
 }
 
+#experience-batch{
+    padding: 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: -100px;
+    margin-left: -70px;
+}
+
+#experience-year{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+
 /* some facts related styles */
 .facts-container{
     display: grid;
@@ -177,7 +191,8 @@ main > section {
 @media screen and (max-width: 576px) {
   .navbar,
   .nav-links,
-  .teams{
+  .teams,
+  .features{
     flex-direction: column;
   }
 
@@ -194,6 +209,16 @@ main > section {
     justify-items: center;
     gap: 20px;
 }
+
+.featured-architect img{
+    width: 100%;
+}
+
+#experience-batch{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
